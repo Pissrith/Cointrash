@@ -6,13 +6,13 @@ import Info from '@/components/Banner'
 import Testimonials from '@/components/Testimonials'
 import Test from '@/components/Testimonials1'
 import Footer from '@/components/Footer'
-import Navbar2 from '@/components/Navbar2'
+import NavLogin from '@/components/NavLogin'
 export default function page() {
   const { data: session } = useSession()
   if (session) {
     return (
       <>
-        <Navbar />
+        <NavLogin />
         <Info />
         <Testimonials />
         <Test />
@@ -24,7 +24,9 @@ export default function page() {
     <>
       <Info />
       <Testimonials />
-      <Test />
+      <div id='test'>
+        <Test />
+      </div>
       <Footer />
     </>)
 }

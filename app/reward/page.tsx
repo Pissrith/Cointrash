@@ -1,14 +1,16 @@
 "use client"
 
-import Navbar from '@/components/Navbar2'
+import NavLogin from '@/components/NavLogin'
 import React from 'react'
 import { useSession, signOut } from 'next-auth/react'
-import NotFound404 from '@/components/pages/NotFound404'
+import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Card from '@/components/Card'
 import Footer from '@/components/Footer'
+import { notFound } from 'next/navigation'
+
 export default function Page() {
 
     const [rewards, setRewards] = useState([]);
@@ -26,7 +28,7 @@ export default function Page() {
 
         return (
             <>
-                <Navbar />
+                <NavLogin />
                 <div className='container mx-auto mt-8 mb-8'>
                     {rewards.length === 0 ? (
                         <div className="text-center">
@@ -59,33 +61,6 @@ export default function Page() {
 
         );
     } else {
-        return (
-            <>
-                <div className='flex flex-wrap justify-center mt-8'>
-                    <div className='h-fit group relative'>
-                        <img src="https://i.guim.co.uk/img/media/5f1155a189f9682073c34bc64e2915a65a0b8cf8/0_186_5936_3561/master/5936.jpg?width=465&dpr=1&s=none"
-                            alt="asd"
-                            className="rounded-full w-48 h-48 object-cover mx-auto"
-                        />
-                        <div className="rounded-full inset-0 absolute h-48 w-48 bg-black/20 flex items-center justify-center  group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300 text-center">
-                            <button className="bg-black rounded-xl text-white py-2 px-5">อ่านต่อ</button>
-                        </div>
-
-                    </div >
-                </div >
-                <div className="h-fit group">
-                    <div className="relative overflow-hidden">
-                        <img
-                            src="https://i.guim.co.uk/img/media/5f1155a189f9682073c34bc64e2915a65a0b8cf8/0_186_5936_3561/master/5936.jpg?width=465&dpr=1&s=none"
-                            alt="asd"
-                            className="object-cover w-full h-48"
-                        />
-                        <div className="absolute h-full w-full bg-black/20 flex items-center justify-center -bottom-10  group-hover:opacity-100 transition-all duration-300 text-center">
-                            <button className="bg-black text-white py-2 px-5">Add to cart</button>                        </div>
-                    </div>
-                </div>
-            </>
-
-        )
+        return notFound()
     }
 }
