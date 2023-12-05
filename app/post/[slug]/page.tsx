@@ -1,16 +1,13 @@
 // Import ทุกอย่างที่คุณจำเป็น
 import Nav from "@/components/Nav1";
-import NavLogin from "@/components/NavLogin"
 import { plasticType, glassType, metalType, paperType, plasticHero } from "@/data";
 import CardItem from '@/components/CardInfo';
 import { ItemTypeList, HeroTypeList } from '../../../type';
-import Hero from "@/components/Hero2";
 import Footer from "@/components/Footer";
 export default function Page({ params }: { params: { slug: string } }) {
     let data: ItemTypeList = [];
     let hero: HeroTypeList = [];
-    let header: string = ""; // Updated to a single hero object
-    // Assign data based on params.slug
+    let header: string = "";
     switch (params.slug) {
         case '1':
             data = plasticType;
@@ -39,8 +36,10 @@ export default function Page({ params }: { params: { slug: string } }) {
         <>
             <div className="bg-indigo-100">
 
-                <Nav />
-                <NavLogin />
+                <div className='shadow-xl shadow-gray-300'>
+                    <Nav />
+                </div>
+
                 <div className="container mx-auto text-center mt-10">
                     <div className='pb-5'>
                         <h1 className="text-5xl font-bold text-green-500 mb-6">

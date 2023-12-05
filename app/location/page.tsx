@@ -6,8 +6,9 @@ import Footer from '@/components/Footer';
 function MapContainer() {
     return (
         <>
-            <Nav />
-            <NavLogin />
+            <div className='shadow-xl shadow-gray-300'>
+                <Nav />
+            </div>
             <section className='bg-gray-100 py-16'>
 
                 <div className='container mx-auto text-center'>

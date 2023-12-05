@@ -7,8 +7,9 @@ import Footer from '@/components/Footer'
 export default function page() {
     return (
         <>
-            <Nav />
-            <NavLogin />
+            <div className='shadow-xl shadow-gray-300'>
+                <Nav />
+            </div>
             <div style={{ background: '#3F506C' }} >
                 <div className='flex flex-col w-auto h-screen text-center items-center justify-center'>
                     <img src="https://project319pic.blob.core.windows.net/picforcs319/gbFhstyENyECIgU6kaqa8.jpg" alt="sss"

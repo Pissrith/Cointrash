@@ -5,3 +5,13 @@ body {
     font-family: 'Mali', cursive;
     /* Add other global styles here if needed */
 }
+
+/* Add this to your existing styles or create a new stylesheet */
+.horizontal-line {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    /* Adjust the color as needed */
+    margin-top: 20px;
+    /* Adjust the margin-top to set the spacing between sections */
+}

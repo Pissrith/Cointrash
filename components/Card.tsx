@@ -1,8 +1,7 @@
-// components/Card.js
-import { describe } from 'node:test';
+"use client"
 import React from 'react';
 
-const Card = ({ imageUrl, name, points, describe }) => {
+const Card = ({ imageUrl, name, describe }) => {
     return (
         <div className="max-w-xs mx-auto overflow-hidden bg-white shadow-lg rounded-lg hover:bg-opacity-90">
             <div className="h-fit group">
@@ -20,9 +19,7 @@ const Card = ({ imageUrl, name, points, describe }) => {
                 <div className="p-4 text-center">
                     <h2 className="text-regular font-semibold py-3">{name}
                     </h2>
-                    <button className="bg-blue-500  hover:bg-blue-700 text-white  py-1 px-4 rounded ">
-                        {points} P
-                    </button>
+
                 </div>
             </div>
         </div>

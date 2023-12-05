@@ -49,10 +49,12 @@ export default function Banner() {
             </FadeIn>
 
             <FadeIn delay={0.2} direction="down" padding fullWidth>
-                <button className="group relative border-2 border-white mt-4 h-12 w-49 px-7 overflow-hidden rounded-lg bg-transpare text-lg shadow">
-                    <div className="absolute inset-0 w-0  bg-green-600 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                    <span className="relative text-white group-hover:text-white">แลกเปลี่ยนขยะรีไซเคิล</span>
-                </button>
+                <Link href='/exchange'>
+                    <button className="group relative border-2 border-white mt-4 h-12 w-49 px-7 overflow-hidden rounded-lg bg-transpare text-lg shadow">
+                        <div className="absolute inset-0 w-0  bg-green-600 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+                        <span className="relative text-white group-hover:text-white">แลกเปลี่ยนขยะรีไซเคิล</span>
+                    </button>
+                </Link>
 
             </FadeIn>
         </div>

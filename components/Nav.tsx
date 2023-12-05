@@ -39,16 +39,16 @@ export default function Nav() {
                                         <Link href="/success" style={{ color: 'white;' }} className='hover:text-green-600 link-hover  rounded-lg p-2'>
                                             ความสำเร็จของเรา
                                         </Link>
+                                        <Link href="/exchange" style={{ color: 'white;' }} className='hover:text-green-600 link-hover rounded-lg p-2'>
+                                            แลกขยะ
+                                        </Link>
                                         <Link href="/location" style={{ color: 'white;' }} className='hover:text-green-600 link-hover rounded-lg p-2'>
                                             จุดรับขยะ
                                         </Link>
-                                        <Link href="" style={{ color: 'white;' }} className='hover:text-green-600 link-hover rounded-lg p-2'>
-                                            แลกคะแนน
+                                        <Link href="/reward" style={{ color: 'white;' }} className='hover:text-green-600 link-hover rounded-lg p-2'>
+                                            ของรางวัล
                                         </Link>
-                                        <Link href="" style={{ color: 'white;' }} className='hover:text-green-600 link-hover rounded-lg p-2'>
-                                            สินค้า
-                                        </Link>
-                                        <Link href="" style={{ color: 'white;' }} className='hover:text-green-600 link-hover rounded-lg p-2'>
+                                        <Link href="/aboutus" style={{ color: 'white;' }} className='hover:text-green-600 link-hover rounded-lg p-2'>
                                             เกี่ยวกับเรา
                                         </Link>
 

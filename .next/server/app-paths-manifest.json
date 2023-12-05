@@ -1,8 +1,10 @@
 {
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
   "/page": "app/page.js",
-  "/post/[slug]/page": "app/post/[slug]/page.js",
-  "/reward/page": "app/reward/page.js",
+  "/exchange/page": "app/exchange/page.js",
   "/location/page": "app/location/page.js",
+  "/aboutus/page": "app/aboutus/page.js",
+  "/reward/page": "app/reward/page.js",
   "/success/page": "app/success/page.js",
-  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

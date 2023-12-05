@@ -1,13 +1,12 @@
 import React from 'react'
-
+import About from './about'
 function Footer() {
     return (
-        <footer className='bg-gray-900 text-white py-4'>
-            <div className='container mx-auto text-center'>
-                <p> &copy pppppp</p>
-            </div>
-
-        </footer>
+        <div>
+            <footer className="flex items-center justify-center py-4 bg-green-800">
+                <p className="text-center text-white">© CoinTrash. All rights reserved.</p>
+            </footer>
+        </div>
     )
 }
 
