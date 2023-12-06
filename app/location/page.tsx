@@ -1,7 +1,6 @@
 "use client"
 import React from 'react';
 import Nav from '@/components/Nav1';
-import NavLogin from '@/components/NavLogin';
 import Footer from '@/components/Footer';
 function MapContainer() {
     return (
