@@ -2,9 +2,9 @@
 import React, { useState, useEffect } from 'react';
 import Nav from '@/components/Nav1';
 import Footer from '@/components/Footer';
-
+import config from '@/config';
 async function getData() {
-    const res = await fetch('http://localhost:3004/recycle');
+    const res = await fetch(config.api_path + '/recycle');
     return res.json();
 }
 

@@ -12,41 +12,17 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/success/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/success/page.css",
-      "static/chunks/app/success/page.js"
-    ],
     "/reward/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/reward/page.css",
       "static/chunks/app/reward/page.js"
     ],
-    "/exchange/page": [
+    "/success/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/exchange/page.css",
-      "static/chunks/app/exchange/page.js"
-    ],
-    "/location/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/location/page.css",
-      "static/chunks/app/location/page.js"
-    ],
-    "/aboutus/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/aboutus/page.css",
-      "static/chunks/app/aboutus/page.js"
-    ],
-    "/post/[slug]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/post/[slug]/page.css",
-      "static/chunks/app/post/[slug]/page.js"
+      "static/css/app/success/page.css",
+      "static/chunks/app/success/page.js"
     ]
   }
 }

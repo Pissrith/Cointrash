@@ -2,14 +2,13 @@
 
 import Nav from '@/components/Nav1'
 import React from 'react'
-import { useSession, signOut } from 'next-auth/react'
-import Image from 'next/image'
+
 import Link from 'next/link'
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Card from '@/components/Card'
 import Footer from '@/components/Footer'
-import { notFound } from 'next/navigation'
+import config from '../../config';
 
 interface CardProps {
     imageUrl: string;
@@ -30,7 +29,7 @@ export default function Page() {
 
     const [rewards, setRewards] = useState<Reward[]>([]);
     useEffect(() => {
-        const URL_API = 'http://localhost:3004/getProduct';
+        const URL_API = config.api_path + '/getProduct';
 
         axios.get(URL_API)
             .then(response => setRewards(response.data))
