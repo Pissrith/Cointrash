@@ -3,6 +3,7 @@ export type ItemType = {
     name: string;
     description: string;
     pic: string;
+    point: number;
 };
 
 export type ItemTypeList = ItemType[];

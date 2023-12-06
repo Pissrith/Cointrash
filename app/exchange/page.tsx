@@ -21,14 +21,14 @@ export default function Page() {
                 <div className='bg-green-100 '>
 
                     <DynamicComponent
-                        imgSrc="/COINCASH.png"
+                        imgSrc="/delivertrash.jpg"
                         altText="About us"
                         heading="นำขยะไปส่งยังจุดรับ"
                         paragraph="นำขยะที่แยกแล้วนำไปส่งยังจุดรับขยะใกล้บ้านคุณ จากนั้นใช้เทปที่จุดรับแปะถุงขยะเพื่อเขียนชื่อสมาชิก และ ส่งมอยให้พนักงาน"
                     />
                 </div>
                 <Herowithpic
-                    imgSrc="/COINCASH.png"
+                    imgSrc="/cointrashline.png"
                     heading="เพิ่มสมาชิกเพื่อรอรับแต้ม"
                     paragraph="แอดไลน์ของเราเพื่อรอรับแต้มที่ได้รับจากขยะของคุณ และ แลกของรางวัล"
                 />

@@ -99,7 +99,7 @@ export default function Page() {
                                     </div>
                                     {/*body*/}
                                     <div className="relative p-6 flex-auto">
-                                        <img src="/colorglass.jpg" alt="" style={{ width: 400 }} />
+                                        <img src="/cointrashline.png" alt="" style={{ width: 400 }} />
                                         <p className="my-4 text-blueGray-500 text-xl font-bold text-center leading-relaxed">
                                             เพิ่มเพื่อนกับเราเพื่อนรับของรางวัล
                                         </p>

@@ -15,8 +15,12 @@ const CardItem: React.FC<CardItemProps> = ({ item }) => {
                     <div className="-mt-7 mb-7 -mx-6 rounded-tl border-b rounded-tr h-[215px] overflow-hidden">
                         <img src={item.pic} alt="cover" className="w-full h-full object-cover" />
                     </div>
-                    <h5 className="text-green-600 font-bold text-xl  mb-4 dark:text-white-light">{item.name}</h5>
+                    <h5 className="text-green-600 font-bold text-xl  mb-4 dark:text-white-light">
+                        {item.name}
+                    </h5>
                     <p className="text-white-dark">{item.description}</p>
+                    <span className="inline-flex items-center rounded-md bg-pink-50 px-5 mt-3 py-1 text-xs font-medium text-pink-700 ring-1 ring-inset ring-pink-700/10">Earn {item.point} Point</span>
+
 
                 </div>
             </div>

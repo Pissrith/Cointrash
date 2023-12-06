@@ -33,22 +33,22 @@ export default function Nav() {
                             <div className='flex'>
                                 <div className='hidden md:block'>
                                     <div className='ml-4 flex items-center space-x-4 font-bold'>
-                                        <Link href="/" style={{ color: 'white;' }} className='hover:text-green-600 link-hover rounded-lg  p-2 '>
+                                        <Link href="/" className='hover:text-green-600 link-hover rounded-lg  p-2 '>
                                             หน้าหลัก
                                         </Link>
-                                        <Link href="/success" style={{ color: 'white;' }} className='hover:text-green-600 link-hover  rounded-lg p-2'>
+                                        <Link href="/success" className='hover:text-green-600 link-hover  rounded-lg p-2'>
                                             ความสำเร็จของเรา
                                         </Link>
-                                        <Link href="/exchange" style={{ color: 'white;' }} className='hover:text-green-600 link-hover rounded-lg p-2'>
+                                        <Link href="/exchange" className='hover:text-green-600 link-hover rounded-lg p-2'>
                                             แลกขยะ
                                         </Link>
-                                        <Link href="/location" style={{ color: 'white;' }} className='hover:text-green-600 link-hover rounded-lg p-2'>
+                                        <Link href="/location" className='hover:text-green-600 link-hover rounded-lg p-2'>
                                             จุดรับขยะ
                                         </Link>
-                                        <Link href="/reward" style={{ color: 'white;' }} className='hover:text-green-600 link-hover rounded-lg p-2'>
+                                        <Link href="/reward" className='hover:text-green-600 link-hover rounded-lg p-2'>
                                             ของรางวัล
                                         </Link>
-                                        <Link href="/aboutus" style={{ color: 'white;' }} className='hover:text-green-600 link-hover rounded-lg p-2'>
+                                        <Link href="/aboutus" className='hover:text-green-600 link-hover rounded-lg p-2'>
                                             เกี่ยวกับเรา
                                         </Link>
 
@@ -97,17 +97,23 @@ export default function Nav() {
                     </div>
                     {isClink && (
                         <div className='px-2 pt-2 pb-3 space-y- sm:-px-3 text-center bg-white rounded-xl '>
-                            <Link href="" className='hover:text-green-800 block  hover:font-semibold hover:bg-gray-100 text-black bg-white rounded-lg p-2'>
-                                Home
+                            <Link href="/" className='hover:text-green-800 block  hover:font-semibold hover:bg-gray-100 text-black bg-white rounded-lg p-2'>
+                                หน้าหลัก
                             </Link>
-                            <Link href="" className='hover:text-green-800 hover:font-semibold block hover:bg-gray-100 text-black rounded-lg p-2'>
-                                About
+                            <Link href="/success" className='hover:text-green-800 hover:font-semibold block hover:bg-gray-100 text-black rounded-lg p-2'>
+                                ความสำเร็จของเรา
                             </Link>
-                            <Link href="" className='hover:text-green-800 block  hover:font-semibold hover:bg-gray-100 text-black rounded-lg p-2'>
-                                Service
+                            <Link href="/exchange" className='hover:text-green-800 block  hover:font-semibold hover:bg-gray-100 text-black rounded-lg p-2'>
+                                แลกขยะ
                             </Link>
-                            <Link href="" className='hover:text-green-800 block  hover:font-semibold hover:bg-gray-100 text-black rounded-lg p-2'>
-                                Contact
+                            <Link href="/location" className='hover:text-green-800 block  hover:font-semibold hover:bg-gray-100 text-black rounded-lg p-2'>
+                                จุดรับขยะ
+                            </Link>
+                            <Link href="/reward" className='hover:text-green-800 block  hover:font-semibold hover:bg-gray-100 text-black rounded-lg p-2'>
+                                ของรางวัล
+                            </Link>
+                            <Link href="/aboutus" className='hover:text-green-800 block  hover:font-semibold hover:bg-gray-100 text-black rounded-lg p-2'>
+                                เกี่ยวกับเรา
                             </Link>
 
                         </div>
