@@ -32,3 +32,17 @@ export const plasticHero = [
         subhead: 'PLASTISCSSC PLASTISCSSC PLASTISCSSC PLASTISCSSC PLASTISCSSC PLASTISCSSC '
     }
 ]
+// '../data.ts'
+
+export const services = [
+    {
+        title: 'Service 1',
+        subtitle: 'Subtitle 1',
+    },
+    {
+        title: 'Service 2',
+        subtitle: 'Subtitle 2',
+    },
+    // Add more service objects as needed
+];
+
