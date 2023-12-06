@@ -4,6 +4,7 @@ import { plasticType, glassType, metalType, paperType, plasticHero } from "@/dat
 import CardItem from '@/components/CardInfo';
 import { ItemTypeList, HeroTypeList } from '../../../type';
 import Footer from "@/components/Footer";
+
 export default function Page({ params }: { params: { slug: string } }) {
     let data: ItemTypeList = [];
     let hero: HeroTypeList = [];
@@ -54,7 +55,7 @@ export default function Page({ params }: { params: { slug: string } }) {
 
                     <div className="container mx-auto mb-20 grid grid-cols-1 mt-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                         {data.map((item) => (
-                            <CardItem key={item.code} item={item} pic={item.pic} />
+                            <CardItem key={item.code} item={item} />
                         ))}
                     </div>
                 </div>
