@@ -1,11 +1,17 @@
 
-import React from 'react'
+import React, { ReactNode } from 'react';
 import { motion, useAnimation, useInView } from "framer-motion"
 
 import { useEffect, useRef } from 'react'
+interface FadeInProps {
+    children: ReactNode;
+    delay: number;
+    direction: 'up' | 'down' | 'left' | 'right';
+    fullWidth: boolean;
+    padding: boolean;
+}
 
-
-export default function FadeIn({ children, delay, direction, fullWidth, padding }) {
+export default function FadeIn({ children, delay, direction, fullWidth, padding }: FadeInProps) {
 
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });

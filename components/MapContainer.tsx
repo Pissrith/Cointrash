@@ -14,10 +14,8 @@ function MapContainer() {
               className="absolute top-0 left-0 w-full h-full"
               src="https://www.google.com/maps/d/embed?mid=1xs6N9JCPQZ8HvVIfM0HlIyFO1I2iB-RU&ehbc=2E312F"
               frameBorder="0"
-              allowFullScreen=""
               title="Google Map"
               aria-hidden="false"
-              tabIndex="0"
             >
             </iframe>
           </div>
