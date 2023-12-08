@@ -1,8 +1,14 @@
 {
-  "/not-found": "app/not-found.js",
-  "/page": "app/page.js",
+  "/_not-found": "app/_not-found.js",
+  "/aboutus/page": "app/aboutus/page.js",
   "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
-  "/post/[slug]/page": "app/post/[slug]/page.js",
+  "/auth/signin/page": "app/auth/signin/page.js",
+  "/exchange/page": "app/exchange/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/success/page": "app/success/page.js"
+  "/location/page": "app/location/page.js",
+  "/page": "app/page.js",
+  "/post/[slug]/page": "app/post/[slug]/page.js",
+  "/reward/page": "app/reward/page.js",
+  "/success/page": "app/success/page.js",
+  "/test/page": "app/test/page.js"
 }
