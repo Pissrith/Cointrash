@@ -116,7 +116,7 @@ export default function Page() {
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
-                                stroke-width="2"
+                                strokeWidth="2"
                                 stroke-linecap="round"
                                 stroke-linejoin="round"
                                 className="w-4 h-4 text-gray-500 dark:text-gray-400"

@@ -12,18 +12,18 @@ export const plasticType = [
 export const glassType = [
     { code: 1, name: 'ขวดแก้ว', description: 'ขวดแก้วสีทุกประเภท ทุกสีที่มีสภาพไม่แตกหรือบิ่น', pic: 'https://project319pic.blob.core.windows.net/picforcs319/a2hbKL3GSsyOgCosAK8i.jpg', point: 1 },
     { code: 2, name: 'ขวดเบียร์', description: 'ขวดเบียร์ทุกประเภท ทุกสีที่มีสภาพไม่แตกหรือบิ่น', pic: 'https://project319pic.blob.core.windows.net/picforcs319/colorglass.jpg', point: 1 },
-    { code: 1, name: 'ขวดไวน์', description: 'ขวดไวน์ทุกประเภทที่มีสภาพไม่แตกหรือบิ่น', pic: 'https://project319pic.blob.core.windows.net/picforcs319/a2hbKL3GSsyOgCosAK8i.jpg', point: 1 },
-    { code: 2, name: 'จานแก้ว', description: 'จานแก้วทุกประเภทที่มีสภาพไม่แตกหรือบิ่น', pic: 'https://project319pic.blob.core.windows.net/picforcs319/colorglass.jpg', point: 1 },
+    { code: 1, name: 'ขวดไวน์', description: 'ขวดไวน์ทุกประเภทที่มีสภาพไม่แตกหรือบิ่น', pic: '/wine_recycle.jpg', point: 1 },
+    { code: 2, name: 'จานแก้ว', description: 'จานแก้วทุกประเภทที่มีสภาพไม่แตกหรือบิ่น', pic: '/plate_recycle.jpg', point: 1 },
 ];
 
 export const metalType = [
-    { code: 1, name: 'Aluminum Cans', description: 'กระป๋องอลูมิเนียม ', pic: 'https://project319pic.blob.core.windows.net/picforcs319/colorglass.jpg', point: 4 },
+    { code: 1, name: 'Aluminum Cans', description: 'กระป๋องอลูมิเนียม ', pic: '/can_recycle.jpg', point: 4 },
 ];
 
 export const paperType = [
-    { code: 1, name: 'Cardboard', description: 'วัสดุประเภทกระดาษแข็งแพงไข่ กระดาษลัง แกนทิชชู่ ', pic: 'https://project319pic.blob.core.windows.net/picforcs319/colorglass.jpg', point: 1 },
-    { code: 2, name: 'UHT Box', description: 'วัสดุประเภทกล่องนม ที่ล้างและผ่านการตากแห้ง', pic: 'https://project319pic.blob.core.windows.net/picforcs319/colorglass.jpg', point: 1 },
-    { code: 2, name: 'Others', description: 'วัสดุประเภทหนังสือหรือกระดาษอ่อนจำพวก กระดาษหนังสือพิมพ์ กระดาษทั่วไป', pic: 'https://project319pic.blob.core.windows.net/picforcs319/colorglass.jpg', point: 1 },
+    { code: 1, name: 'Cardboard', description: 'วัสดุประเภทกระดาษแข็งแพงไข่ กระดาษลัง แกนทิชชู่ ', pic: '/cardboard.jpg', point: 1 },
+    { code: 2, name: 'UHT Box', description: 'วัสดุประเภทกล่องนม ที่ล้างและผ่านการตากแห้ง', pic: '/uhtbox.png', point: 1 },
+    { code: 2, name: 'Others', description: 'วัสดุประเภทหนังสือหรือกระดาษอ่อนจำพวก กระดาษหนังสือพิมพ์ กระดาษทั่วไป', pic: '/other.png', point: 1 },
 ];
 
 export const plasticHero = [

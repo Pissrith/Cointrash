@@ -20,12 +20,13 @@ export default function Page({ params }: { params: { slug: string } }) {
 
             break;
         case '3':
-            data = metalType;
+            data = paperType;
+
             header = "ประเภทของเหล็กที่เรารับ";
 
             break;
         case '4':
-            data = paperType;
+            data = metalType;
             header = "ประเภทของกระดาษที่เรารับ";
 
             break;
@@ -39,6 +40,7 @@ export default function Page({ params }: { params: { slug: string } }) {
 
                 <div className='shadow-xl shadow-gray-300'>
                     <Nav />
+                    
                 </div>
 
                 <div className="container mx-auto text-center mt-10">
