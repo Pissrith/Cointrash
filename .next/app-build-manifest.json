@@ -12,6 +12,12 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/location/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/location/page.css",
+      "static/chunks/app/location/page.js"
+    ],
     "/reward/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -23,6 +29,17 @@
       "static/chunks/main-app.js",
       "static/css/app/success/page.css",
       "static/chunks/app/success/page.js"
+    ],
+    "/post/[slug]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/post/[slug]/page.css",
+      "static/chunks/app/post/[slug]/page.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
     ]
   }
 }

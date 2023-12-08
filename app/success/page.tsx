@@ -108,7 +108,7 @@ export default function Page() {
                 <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-2">
                     <div className="rounded-lg border bg-white text-card-foreground shadow-sm" data-v0-t="card">
                         <div className="p-6 flex flex-row items-center justify-between pb-2 space-y-0 md:px-60 px-8 py-5 h-auto w-auto">
-                            <h3 className="tracking-tight text-sm font-medium">Total Recycled Items</h3>
+                            <h3 className="tracking-tight text-xl font-medium">Total Recycled Items</h3>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -136,7 +136,7 @@ export default function Page() {
 
                     <div className="rounded-lg border bg-white text-card-foreground shadow-sm flex flex-col " data-v0-t="card">
                         <div className="flex flex-col space-y-1.5 p-6 md:px-60 px-8 py-5 h-auto w-auto">
-                            <p className="text-sm text-muted-foreground">Recycling Breakdown</p>
+                            <p className="text-xl font-medium text-muted-foreground">Recycling Breakdown</p>
                         </div>
                         <div className="p-6 grid gap-4">
                             <div className="flex items-center">

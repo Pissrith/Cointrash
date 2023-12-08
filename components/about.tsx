@@ -37,7 +37,7 @@ export default function about() {
                             <span className="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full">
                                 <span className="flex h-full w-full items-center justify-center rounded-full bg-muted">
                                     <img
-                                        src="/colorglass.jpg"
+                                        src="/profile1.jpeg"
                                         alt='member1'
                                         className="h-full w-full object-cover rounded-full"
                                     />
@@ -54,7 +54,7 @@ export default function about() {
                             <span className="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full">
                                 <span className="flex h-full w-full items-center justify-center rounded-full bg-muted">
                                     <img
-                                        src="/colorglass.jpg"
+                                        src="/profile3.jpeg"
                                         alt='member1'
                                         className="h-full w-full object-cover rounded-full"
                                     />
@@ -71,7 +71,7 @@ export default function about() {
                             <span className="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full">
                                 <span className="flex h-full w-full items-center justify-center rounded-full bg-muted">
                                     <img
-                                        src="/colorglass.jpg"
+                                        src="/profile2.jpeg"
                                         alt='member1'
                                         className="h-full w-full object-cover rounded-full"
                                     />
@@ -88,7 +88,7 @@ export default function about() {
                             <span className="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full">
                                 <span className="flex h-full w-full items-center justify-center rounded-full bg-muted">
                                     <img
-                                        src="/colorglass.jpg"
+                                        src="/profile4.jpeg"
                                         alt='member1'
                                         className="h-full w-full object-cover rounded-full"
                                     />
@@ -105,7 +105,7 @@ export default function about() {
                             <span className="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full">
                                 <span className="flex h-full w-full items-center justify-center rounded-full bg-muted">
                                     <img
-                                        src="/colorglass.jpg"
+                                        src="/profile5.jpeg"
                                         alt='member1'
                                         className="h-full w-full object-cover rounded-full"
                                     />
@@ -122,7 +122,7 @@ export default function about() {
                             <span className="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full">
                                 <span className="flex h-full w-full items-center justify-center rounded-full bg-muted">
                                     <img
-                                        src="/colorglass.jpg"
+                                        src="/profiel6.jpeg"
                                         alt='member1'
                                         className="h-full w-full object-cover rounded-full"
                                     />

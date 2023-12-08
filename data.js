@@ -17,13 +17,13 @@ export const glassType = [
 ];
 
 export const metalType = [
-    { code: 1, name: 'Aluminum', description: 'สามารถรีไซเคิลได้  อลูมิเนียม', pic: 'https://project319pic.blob.core.windows.net/picforcs319/colorglass.jpg', point: 4 },
-    { code: 2, name: 'Steel', description: 'สามารถรีไซเคิลได้ เหล็ก', pic: 'https://project319pic.blob.core.windows.net/picforcs319/colorglass.jpg', point: 3 },
+    { code: 1, name: 'Aluminum Cans', description: 'กระป๋องอลูมิเนียม ', pic: 'https://project319pic.blob.core.windows.net/picforcs319/colorglass.jpg', point: 4 },
 ];
 
 export const paperType = [
-    { code: 1, name: 'Cardboard', description: 'วัสดุประเภทกระดาษแข็งหรือหนังสือจำพวก แพงไข่ กระดาษลัง แกนทิชชู่ แก้วน้ำกระดาษ', pic: 'https://project319pic.blob.core.windows.net/picforcs319/colorglass.jpg', point: 1 },
-    { code: 2, name: 'Newspaper', description: 'วัสดุประเภทหนังสือหรือกระดาษอ่อนจำพวก กระดาษหนังสือพิมพ์ กระดาษทั่วไป', pic: 'https://project319pic.blob.core.windows.net/picforcs319/colorglass.jpg', point: 1 },
+    { code: 1, name: 'Cardboard', description: 'วัสดุประเภทกระดาษแข็งแพงไข่ กระดาษลัง แกนทิชชู่ ', pic: 'https://project319pic.blob.core.windows.net/picforcs319/colorglass.jpg', point: 1 },
+    { code: 2, name: 'UHT Box', description: 'วัสดุประเภทกล่องนม ที่ล้างและผ่านการตากแห้ง', pic: 'https://project319pic.blob.core.windows.net/picforcs319/colorglass.jpg', point: 1 },
+    { code: 2, name: 'Others', description: 'วัสดุประเภทหนังสือหรือกระดาษอ่อนจำพวก กระดาษหนังสือพิมพ์ กระดาษทั่วไป', pic: 'https://project319pic.blob.core.windows.net/picforcs319/colorglass.jpg', point: 1 },
 ];
 
 export const plasticHero = [
